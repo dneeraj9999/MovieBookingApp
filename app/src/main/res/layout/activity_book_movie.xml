@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.drenu.testdrawer.SelectCityActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5">
+
+            <ImageView
+                android:id="@+id/myImageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:alpha="0.4"
+                android:src="@drawable/mumbai" />
+
+            <TextView
+                android:id="@+id/myImageViewText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/myImageView"
+                android:layout_alignLeft="@+id/myImageView"
+                android:layout_alignRight="@+id/myImageView"
+                android:layout_alignTop="@+id/myImageView"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:text="Mumbai"
+                android:textColor="#d04"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5">
+
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:alpha="0.3"
+                android:src="@drawable/delhi" />
+
+            <TextView
+                android:id="@+id/city2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/img2"
+                android:layout_alignLeft="@+id/img2"
+                android:layout_alignRight="@+id/img2"
+                android:layout_alignTop="@+id/img2"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:text="Delhi"
+                android:textColor="#d04"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/colorBlack"
+        />
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5">
+
+                <ImageView
+                    android:id="@+id/myImageView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:alpha="0.4"
+                    android:src="@drawable/pune" />
+
+                <TextView
+                    android:id="@+id/myImageViewText1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/myImageView1"
+                    android:layout_alignLeft="@+id/myImageView1"
+                    android:layout_alignRight="@+id/myImageView1"
+                    android:layout_alignTop="@+id/myImageView1"
+                    android:layout_margin="1dp"
+                    android:gravity="center"
+                    android:text="Pune"
+                    android:textColor="#d04"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5">
+
+                <ImageView
+                    android:id="@+id/img3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:alpha="0.3"
+                    android:src="@drawable/bengaluru" />
+
+                <TextView
+                    android:id="@+id/city3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/img3"
+                    android:layout_alignLeft="@+id/img3"
+                    android:layout_alignRight="@+id/img3"
+                    android:layout_alignTop="@+id/img3"
+                    android:layout_margin="1dp"
+                    android:gravity="center"
+                    android:text="Bengaluru"
+                    android:textColor="#d04"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/colorBlack"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5">
+
+            <ImageView
+                android:id="@+id/myImageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:alpha="0.4"
+                android:src="@drawable/chennai" />
+
+            <TextView
+                android:id="@+id/myImageViewText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/myImageView3"
+                android:layout_alignLeft="@+id/myImageView3"
+                android:layout_alignRight="@+id/myImageView3"
+                android:layout_alignTop="@+id/myImageView3"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:text="Chennai"
+                android:textColor="#d04"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5">
+
+            <ImageView
+                android:id="@+id/img4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:alpha="0.3"
+                android:src="@drawable/hyderabad" />
+
+            <TextView
+                android:id="@+id/city4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/img4"
+                android:layout_alignLeft="@+id/img4"
+                android:layout_alignRight="@+id/img4"
+                android:layout_alignTop="@+id/img4"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:text="Hyderabad"
+                android:textColor="#d04"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <AutoCompleteTextView
+        android:id="@+id/cities"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Search city name"
+        android:padding="20dp" />
+
+    <Button
+        android:id="@+id/proceed"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="PROCEED" />
+
+</LinearLayout>
